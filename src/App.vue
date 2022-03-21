@@ -14,7 +14,6 @@
             <li><router-link to="/dashboard">DashBoard</router-link></li>
         </ul>
     </nav>
-
  </header>
 
   <router-view/>
@@ -22,10 +21,12 @@
 </template>
 
 <script>
+  import Hello from './components/Hello.vue'
 
   export default{
     name: 'App',
     componets: {
+      Hello
     }
   }
 

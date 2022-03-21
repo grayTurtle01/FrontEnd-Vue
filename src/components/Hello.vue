@@ -1,13 +1,10 @@
 <template>
-  <p>Hello Vue</p>
+    <p> Hello from Hello.vue </p>
 </template>
 
+
 <script>
-export default {
-    name: 'Hello'
-}
+    export default{
+        name: 'Hello'
+    }
 </script>
-
-<style>
-
-</style>
