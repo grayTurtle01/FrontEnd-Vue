@@ -13,7 +13,7 @@
     
         props:{
             title: String,
-            price: String,
+            price: Number,
             image: String
         }
 

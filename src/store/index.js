@@ -26,7 +26,32 @@ export default createStore({
         image: 'mil-hojas.png'
       }
 
+    ],
+
+    adornos: [
+      {
+        title: 'Fondant',
+        price: 200,
+        image: 'fondant.jpg'
+      },
+      {
+        title: 'Frutales',
+        price: 100,
+        image: 'frutales.jpg'
+      },
+      {
+        title: 'Flores',
+        price: 150,
+        image: 'flores.jpg'
+      },
+      {
+        title: 'Dibujo',
+        price: 99,
+        image: 'dibujo.jpg'
+      }
+
     ]
+
   },
   getters: {
   },

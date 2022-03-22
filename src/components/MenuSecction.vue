@@ -4,10 +4,10 @@
 
         <div class="contenedor">
 
-			<Card v-for="flavor in $store.state.flavors"
-				v-bind:title="flavor.title"
-				v-bind:price="flavor.price"
-				v-bind:image="flavor.image"
+			<Card v-for="item in array"
+				v-bind:title="item.title"
+				v-bind:price="item.price"
+				v-bind:image="item.image"
 			/>
 
         </div>
@@ -21,7 +21,8 @@
         name: 'MenuSecction',
 
         props: {
-            title: String
+            title: String,
+			array: Object
         },
 
         components:{

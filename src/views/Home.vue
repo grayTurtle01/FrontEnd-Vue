@@ -1,6 +1,8 @@
 <template>
 
-        <MenuSecction title="Sabores" />
+        <MenuSecction title="Sabores"  v-bind:array="$store.state.flavors"/>
+        <MenuSecction title="Adornos"  v-bind:array="$store.state.adornos"/>
+
 
 </template>
 
