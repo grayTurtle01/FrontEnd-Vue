@@ -1,9 +1,9 @@
 <template>
 
-        <MenuSecction title="Sabores"  v-bind:array="$store.state.flavors"/>
-        <MenuSecction title="Adornos"  v-bind:array="$store.state.adornos"/>
+        <MenuSecction title="Sabores"  :array="$store.state.flavors"/>
+        <MenuSecction title="Adornos"  :array="$store.state.adornos"/>
 
-
+        <Footer />
 </template>
 
 
@@ -13,12 +13,14 @@
 <script>
         import Card from '@/components/Card.vue'
         import MenuSecction from '@/components/MenuSecction.vue'
+        import Footer from '@/components/Footer.vue'
 
         export default{
                 name: 'Home',
                 components:{
                         Card,
-                        MenuSecction
+                        MenuSecction,
+                        Footer
                 }
         }
 
