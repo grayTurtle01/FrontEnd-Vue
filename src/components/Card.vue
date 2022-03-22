@@ -2,7 +2,7 @@
     <div class="card">
         <img :src="require(`../assets/images/${image}`)" alt="Tres Chocolates">
 
-        <h4>{{title}}</h4>
+        <h4 class="titulo">{{title}}</h4>
         <div class="precio">${{price}}</div>
     </div>
 </template>
@@ -20,3 +20,42 @@
     }
 
 </script>
+
+<style scope>
+
+    .card{
+        border: 1px solid black;
+        border-radius: 10px;
+        
+        width: 250px;
+
+        margin: 10px;
+        padding: 10px;
+
+        padding-bottom: 30px;
+        
+    }
+
+    .card img{
+        width: 100%;
+        height: 70%;
+        border-radius: 10px;
+        margin-bottom: 20px;
+
+    }
+
+    .titulo{
+        color: #6D6E71;
+        margin-bottom: 10px;
+        font-size: 20px;
+
+    }
+
+
+    .precio{
+        color: #3A160E;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+</style>
