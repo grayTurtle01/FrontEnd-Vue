@@ -10,7 +10,7 @@
     <nav>
         <ul>
             <li><router-link to="/">Menú</router-link></li>
-            <li><router-link to="/pedido">Pedido</router-link></li>
+            <li><router-link to="/pedido">Ordenar</router-link></li>
             <li><router-link to="/dashboard">DashBoard</router-link></li>
         </ul>
     </nav>
