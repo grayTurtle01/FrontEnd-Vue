@@ -1,14 +1,17 @@
 <template>
         Dashboard
+        <Footer />
  </template>
 
 <script>
+    import Footer from '../components/Footer'
 
-export default{
-    name: 'Pedido',
-    components:{
+    export default{
+        name: 'Pedido',
+        components:{
+            Footer
+        }
     }
-}
 
 </script>
 

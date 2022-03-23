@@ -1,14 +1,20 @@
 <template>
         Pedido
+        <Footer/>
  </template>
 
 <script>
 
-export default{
-    name: 'Pedido',
-    components:{
+    import Footer from '@/components/Footer.vue'
+
+    export default{
+
+        name: 'Pedido',
+
+        components:{
+            Footer
+        }
     }
-}
 
 </script>
 

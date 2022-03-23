@@ -32,6 +32,12 @@
 </script>
 
 <style>
+	section{
+		border: 1px solid black;
+		border-radius: 10px;
+		margin-bottom: 10px;
+	}
+
 	.section-title{
 		text-align: center;
 		font-size: 40px;
@@ -44,5 +50,7 @@
 		flex-wrap: wrap;
 
 		justify-content: center;
+
+
 	}
 </style>
