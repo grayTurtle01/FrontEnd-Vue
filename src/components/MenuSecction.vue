@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <section class="menu-section">
         <h2 class="section-title">{{title}}</h2>
 
         <div class="contenedor">
@@ -31,8 +31,8 @@
     }
 </script>
 
-<style>
-	section{
+<style scope>
+	.menu-section{
 		border: 1px solid black;
 		border-radius: 10px;
 		margin-bottom: 10px;

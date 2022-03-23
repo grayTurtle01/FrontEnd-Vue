@@ -1,9 +1,9 @@
 <template>
 
-        <MenuSecction title="Sabores"  :array="$store.state.flavors"/>
-        <MenuSecction title="Adornos"  :array="$store.state.adornos"/>
+	<MenuSecction title="Sabores"  :array="$store.state.flavors"/>
+	<MenuSecction title="Adornos"  :array="$store.state.adornos"/>
 
-        <Footer />
+	<Footer />
 </template>
 
 
@@ -11,37 +11,37 @@
 
 
 <script>
-        import Card from '@/components/Card.vue'
-        import MenuSecction from '@/components/MenuSecction.vue'
-        import Footer from '@/components/Footer.vue'
+	import Card from '@/components/Card.vue'
+	import MenuSecction from '@/components/MenuSecction.vue'
+	import Footer from '@/components/Footer.vue'
 
-        export default{
-                name: 'Home',
-                components:{
-                        Card,
-                        MenuSecction,
-                        Footer
-                }
-        }
+	export default{
+			name: 'Home',
+			components:{
+					Card,
+					MenuSecction,
+					Footer
+			}
+	}
 
 </script>
 
 <style>
-        h1{
-        text-align: center;
-        }
+	h1{
+	text-align: center;
+	}
 
-        #pedidos{
-        margin: auto;
-        }
+	#pedidos{
+	margin: auto;
+	}
 
-        #container{
-        display: flex;
-        justify-content: space-around
-        }
+	#container{
+	display: flex;
+	justify-content: space-around
+	}
 
-        section h3{
-        text-align: center
-        }
+	section h3{
+	text-align: center
+	}
 
 </style>
