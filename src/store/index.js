@@ -50,12 +50,22 @@ export default createStore({
         image: 'dibujo.jpg'
       }
 
+    ],
+
+    pedidos: [
+
     ]
+
+
 
   },
   getters: {
   },
   mutations: {
+    agregarPedido(state, nuevoPedido){
+        state.pedidos.push(nuevoPedido)
+        console.log(state.pedidos)
+    }
   },
   actions: {
   },
