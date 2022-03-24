@@ -16,5 +16,5 @@ jobs:
       - name: crear ambiente en Node
         uses: actions/setup-node@v1
 
-      - name: "probando npm"
-        run: npm --version
+      - name: "probando node"
+        run:  node --version
