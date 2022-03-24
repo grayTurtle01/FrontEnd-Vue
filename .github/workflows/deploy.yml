@@ -6,7 +6,7 @@ on:
 
 jobs:
   prueba:
-    name: Mensaje de prueba
+    name: Desplegar Proyecto de Vue en gitHub
 
     runs-on: ubuntu-latest
     steps:
@@ -28,3 +28,4 @@ jobs:
           REPO: self
           BRANCH: deploy
           FOLDER: dist
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
