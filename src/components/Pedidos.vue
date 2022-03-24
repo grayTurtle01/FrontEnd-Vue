@@ -8,8 +8,8 @@
                 <th>Cliente</th> <th>Teléfono</th> <th>Correo</th> <th>Fecha</th>
             </tr>
 
-            <tr v-for="pedido in $store.state.pedidos">
-                <td>{{pedido.id}}</td> 
+            <tr v-for="(pedido,index) in $store.state.pedidos">
+                <td>{{index}}</td> 
                 <td>{{pedido.sabores}}</td><td>{{pedido.adorno}}</td> <td>{{pedido.cantidad}}</td> <td>{{pedido.descripcion}}</td>
                 <td>{{pedido.cliente}}</td> <td>{{pedido.telefono}}</td> <td>{{pedido.correo}}</td> <td>{{pedido.fecha}}</td>
             </tr>
