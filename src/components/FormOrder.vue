@@ -3,7 +3,8 @@
      <button @click="$store.commit('agregarPedido', pedido)"> Click Me </button>
 
      <form onsubmit=" return false;">
-      <h2>Ingredientes</h2>    
+      <h2>Ingredientes</h2>
+     
       <section id="contenedor-ingredientes">
           
           <div class="ingredientes-categoria">
@@ -83,7 +84,7 @@
               <input type="text" id="nombre"
                       placeholder="Nombre del cliente"  
                       class="input-string"
-                      v-model="pedido.nombre"
+                      v-model="pedido.cliente"
                       
               >
           </div>
@@ -141,11 +142,12 @@
         data(){
             return{
                 pedido: {
+                    id: 0,
                     sabores : [],
                     adorno: '',
                     cantidad: 1,
                     descripcion: '',
-                    nombre: '',
+                    cliente: '',
                     telefono: '',
                     correo: '',
                     fecha: ''
@@ -160,9 +162,8 @@
 
 </script>
 
-
-
 <style>
+
     /*  Pedido form*/
     form{
         border: 1px solid black;

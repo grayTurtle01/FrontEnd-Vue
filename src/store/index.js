@@ -53,6 +53,41 @@ export default createStore({
     ],
 
     pedidos: [
+      {
+        id: 1,
+        sabores: '3 chocolates',
+        adorno: 'Flores',
+        cantidad: 1,
+        descripcion: 'Pastel de chocolate con flores',
+        cliente: 'Juan Hernandez',
+        telefono: '55-456-1234',
+        correo: 'correo@mail.com',
+        fecha: '2022-12-29'
+       },
+       {
+        id: 2,
+        sabores: 'Red Velvet',
+        adorno: 'Fondant',
+        cantidad: 1,
+        descripcion: 'Pastel Fondant de Friends',
+        cliente: 'Rachel Green',
+        telefono: '32-246-8024',
+        correo: 'rgreen@mail.com',
+        fecha: '2022-04-27'
+       },
+       {
+        id: 3,
+        sabores: '3 chocolates, Zahanoria',
+        adorno: 'Dibujo',
+        cantidad: 2,
+        descripcion: 'Pastel combinado',
+        cliente: 'Bob Martinez',
+        telefono: '76-333-4444',
+        correo: 'bob@mail.com',
+        fecha: '2022-05-02'
+       }
+
+
 
     ]
 
