@@ -1,4 +1,4 @@
-name: Compilar proyecto de Vue
+name: Primer Nombre
 on:
   push:
     branches:
