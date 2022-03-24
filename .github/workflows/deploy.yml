@@ -1,4 +1,4 @@
-name: Primer Nombre
+name: Primer Nombre 2
 on:
   push:
     branches:
