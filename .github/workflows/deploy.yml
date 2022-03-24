@@ -8,7 +8,7 @@ jobs:
   prueba:
     name: Imprimir mensaje
 
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: verificador
         uses: actions/checkout@v2
