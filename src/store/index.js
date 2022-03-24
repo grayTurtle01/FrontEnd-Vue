@@ -98,7 +98,7 @@ export default createStore({
   },
   mutations: {
     agregarPedido(state, nuevoPedido){
-        nuevoPedido.sabores = ",".join(nuevoPedido.sabores)
+        nuevoPedido.sabores = nuevoPedido.sabores.join(', ')
         state.pedidos.push(nuevoPedido)
         console.log(state.pedidos)
     }
