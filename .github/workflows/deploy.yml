@@ -1,4 +1,4 @@
-name: Hello GitHub Actions
+name: Compilar proyecto de Vue
 on:
   push:
     branches:
@@ -6,7 +6,7 @@ on:
 
 jobs:
   prueba:
-    name: Imprimir mensaje
+    name: Mensaje de prueba
 
     runs-on: ubuntu-latest
     steps:
@@ -16,5 +16,8 @@ jobs:
       - name: crear ambiente en Node
         uses: actions/setup-node@v1
 
-      - name: "probando node"
-        run:  node --version
+      - name: "Instalar dependencias"
+        run:  npm install
+
+      - name: "Compilar proyecto"
+        run: npm build
