@@ -10,6 +10,8 @@ jobs:
 
     run-on: ubuntu-latest
     steps:
-      -uses: actions/checkout@v2
-      -name: imprime con echo
-      run : echo Hello, GH-Actions! 
+      - name: verificador
+        uses: actions/checkout@v2
+
+      - name: imprime mensaje   
+        run : echo Hello, GH-Actions! 
