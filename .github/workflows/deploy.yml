@@ -13,5 +13,8 @@ jobs:
       - name: verificador
         uses: actions/checkout@v2
 
-      - name: imprime mensaje   
-        run : echo Hello, GH-Actions! 
+      - name: crear ambiente en Node
+        uses: actions/setup-node@v1
+
+      - name: "probando npm"
+        run: npm --version
