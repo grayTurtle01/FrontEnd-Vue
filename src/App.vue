@@ -3,8 +3,7 @@
   <header>
 
     <div class="header-left">
-        <img src="./assets/images/logo.png" width=100px title="Pastelería Galáctica"/>
-        <h1>Menú</h1>
+        <img src="./assets/images/logo.png">  
     </div>
 
     <nav>
@@ -14,9 +13,13 @@
             <li><router-link to="/dashboard">DashBoard</router-link></li>
         </ul>
     </nav>
- </header>
 
-  <router-view/>
+  
+
+ </header>
+        
+<router-view/>
+
 
 </template>
 
@@ -53,6 +56,11 @@
       
   }
 
+  .header-left img{
+    width: 100px;
+    margin-left: 20px;
+  }
+
   /* NavList */
   nav ul{
       list-style: none;
@@ -82,9 +90,19 @@
   nav a {
     font-weight: bold;
     color: #2c3e50;
+    text-decoration: none;
   }
 
   nav a.router-link-exact-active {
     color: #42b983;
+    text-decoration: underline;
   }
+
+  /** Media queries ***/
+@media(max-width:600px){
+  nav li{
+    display: block;
+  }
+}
+
 </style>

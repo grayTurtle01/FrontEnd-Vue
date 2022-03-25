@@ -83,6 +83,7 @@
                       placeholder="Nombre del cliente"  
                       class="input-string"
                       v-model="pedido.cliente"
+                      required
                       
               >
           </div>
@@ -94,6 +95,7 @@
                       class="input-string"
                       pattern="[0-9]{10}"
                       v-model="pedido.telefono"
+                      required
                       
 
               >
@@ -105,6 +107,7 @@
                       placeholder="Correo electrónico" 
                       class="input-string"
                       v-model="pedido.correo"
+                      required
 
               >
 
@@ -116,6 +119,7 @@
                       placeholder="Fecha de Entrega"  
                       class="input-string"
                       v-model="pedido.fecha"
+                      required
                       
 
               >
