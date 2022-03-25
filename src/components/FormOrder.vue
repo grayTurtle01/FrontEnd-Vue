@@ -1,7 +1,5 @@
 <template>
 
-     <button @click="$store.commit('agregarPedido', pedido)"> Click Me </button>
-
      <form onsubmit=" return false;">
       <h2>Ingredientes</h2>
      

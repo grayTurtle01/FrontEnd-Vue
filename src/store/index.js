@@ -108,6 +108,7 @@ export default createStore({
         adorno: 'Flores',
         cantidad: 1,
         descripcion: 'Pastel de chocolate con flores',
+
         cliente: 'Juan Hernandez',
         telefono: '55-456-1234',
         correo: 'correo@mail.com',
@@ -143,15 +144,48 @@ export default createStore({
 
 
   },
+
   getters: {
   },
+
   mutations: {
-    agregarPedido(state, nuevoPedido){
-        nuevoPedido.sabores = nuevoPedido.sabores.join(', ')
-        state.pedidos.push(nuevoPedido)
+    agregarPedido(state, pedido){
+
+        console.log(pedido)
+        // check inputs
+        if( pedido.sabores.length < 1){
+          alert("Please select one flavor")
+          return false;
+        }
+        
+        if( pedido.cliente == ''){
+          alert('Please put your name')
+          return false;
+        }
+
+        if( pedido.telefono.length < 10){
+          alert('Please enter a valid number')
+          return false;
+        }
+
+        if( pedido.correo.length == '' ){
+          alert('Please enter your e-mail')
+          return false;
+        }
+
+        if( pedido.fecha == '' ){
+          alert('Please enter a delivery date')
+          return false;
+        }
+
+        pedido.sabores = pedido.sabores.join(', ')
+        state.pedidos.push(pedido)
         console.log(state.pedidos)
+
+        alert("Pedido Enviado :)")
     }
   },
+
   actions: {
   },
   modules: {
