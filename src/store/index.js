@@ -52,6 +52,30 @@ export default createStore({
 
     ],
 
+    sabores_restantes:[
+      {
+        name:"Tres Chocolates",
+        amount: 1
+
+      },
+      {
+        name:"Red Velvet",
+        amount: 3
+
+      },
+      {
+        name:"Zanahoria",
+        amount: 4
+
+      },
+      {
+        name:"Mil Hojas",
+        amount: 0
+
+      },
+
+    ],
+
     pedidos: [
       {
         id: 1,
