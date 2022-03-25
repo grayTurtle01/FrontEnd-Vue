@@ -76,6 +76,31 @@ export default createStore({
 
     ],
 
+    adornos_restantes:[
+      {
+        name:"Fondant",
+        amount: 2
+
+      },
+      {
+        name:"Frutal",
+        amount: 0
+
+      },
+      {
+        name:"Flores",
+        amount: 1
+
+      },
+      {
+        name:"Dibujo",
+        amount: 3
+
+      },
+
+    ],
+
+
     pedidos: [
       {
         id: 1,
