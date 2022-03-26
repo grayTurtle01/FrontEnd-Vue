@@ -2,7 +2,7 @@
 Reimplementación de la página de la Pastelería en Vue
 
 ## ScreenShot 📸
-![](images/screenshot.png)
+![](screenshots/screenshot.png)
 
 ## Demo
 [Deploy](https://pasteleria-vue.netlify.app)
