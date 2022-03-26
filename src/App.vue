@@ -16,15 +16,14 @@
 
   
 
- </header>
+  </header>
         
-<router-view/>
-
+  <router-view/>
 
 </template>
 
 <script>
-
+ 
   export default{
     name: 'App',
     componets: {
@@ -35,6 +34,10 @@
 
 
 <style scope>
+  *{
+    font-family: Arial, sans-serif;
+  }
+
 
   header{
       display: flex;
@@ -43,6 +46,7 @@
 
       border: 1px solid black;
       border-radius: 10px;
+      box-shadow: 5px 5px;
 
       padding: 5px;
       margin-bottom: 20px;
@@ -99,10 +103,10 @@
   }
 
   /** Media queries ***/
-@media(max-width:600px){
-  nav li{
-    display: block;
+  @media(max-width:600px){
+    nav li{
+      display: block;
+    }
   }
-}
 
 </style>

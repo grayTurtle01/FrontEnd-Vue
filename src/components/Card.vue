@@ -38,7 +38,7 @@
 
     .card img{
         width: 100%;
-        height: 70%;
+        height: 65%;
         border-radius: 10px;
         margin-bottom: 20px;
 
@@ -56,6 +56,10 @@
         color: #3A160E;
         font-size: 30px;
         font-weight: bold;
+    }
+
+    .card:hover{
+        box-shadow: 5px 5px 5px;
     }
 
 </style>
