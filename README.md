@@ -1,19 +1,8 @@
-# 05-pasteleria-vue
+## Descripción 📖
+Reimplementación de la página de la Pastelería en Vue
 
-## Project setup
-```
-npm install
-```
+## ScreenShot 📸
+![](images/screenshot.png)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Demo
+[Deploy](https://pasteleria-vue.netlify.app)
