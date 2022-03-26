@@ -3,6 +3,7 @@
         <SaboresRestantes />
         <AdornosRestantes />
     </div>
+
     <Pedidos />
     <Footer   />
  </template>
@@ -26,5 +27,9 @@
 </script>
 
 <style>
-
+    #container{
+	    display: flex;
+	    justify-content: space-around;
+        flex-flow: wrap;
+	}
 </style>

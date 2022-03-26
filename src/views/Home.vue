@@ -35,11 +35,7 @@
 	margin: auto;
 	}
 
-	#container{
-	display: flex;
-	justify-content: space-around
-	}
-
+	
 	section h3{
 	text-align: center
 	}
